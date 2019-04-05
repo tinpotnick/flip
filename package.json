@@ -1,7 +1,7 @@
 {
   "name": "flip",
   "main": "./lib/flip",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Flip the source code to document.",
   "keywords": [],
   "activationCommands": {
