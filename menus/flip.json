@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle flip",
+        "command": "flip:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "flip",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "flip:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

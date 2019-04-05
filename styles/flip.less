@@ -1,0 +1,87 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid @base-border-color;
+  background-color: @app-background-color;
+  margin-top: 10px;
+}
+
+
+thead th, tfoot th {
+  font-weight: bold;
+}
+
+
+th, td {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+pre.flip{
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.flip {
+  margin: 20px;
+}
+
+div.flip{
+  height: 100%;
+  overflow: scroll;
+}
+
+/*
+  Ref:
+  https://highlightjs.readthedocs.io/en/latest/css-classes-reference.html
+  &
+  https://github.com/atom/atom/blob/master/static/variables/syntax-variables.less
+*/
+.hljs-keyword {
+  color: @syntax-color-keyword;
+}
+.hljs-number {
+  color: @syntax-color-value;
+}
+.hljs-built_in {
+  color: @syntax-color-keyword;
+}
+.hljs-type {
+  color: @syntax-color-tag;
+}
+.hljs-literal {
+  color: @syntax-color-value;
+}
+.hljs-regexp {
+  color: @syntax-color-value;
+}
+.hljs-string {
+  color: @syntax-color-value;
+}
+.hljs-subst {
+  color: @syntax-color-value;
+}
+.hljs-symbol {
+  color: @syntax-color-keyword;
+}
+.hljs-class {
+  color: @syntax-color-keyword;
+}
+.hljs-function {
+  color: @syntax-color-keyword;
+}
+.hljs-title {
+  color: @syntax-color-keyword;
+}
+.hljs-params {
+  color: @syntax-color-keyword;
+}
+.hljs-comment {
+  color: @syntax-color-value;
+}

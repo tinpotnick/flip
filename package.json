@@ -1,0 +1,21 @@
+{
+  "name": "flip",
+  "main": "./lib/flip",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "flip:toggle"
+  },
+  "repository": "https://github.com/atom/flip",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "dompurify": "^1.0.10",
+    "highlight.js": "^9.15.6",
+    "highlights": "^1.2",
+    "showdown": "^1.9.0"
+  }
+}
