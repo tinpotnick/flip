@@ -2,12 +2,12 @@
   "name": "flip",
   "main": "./lib/flip",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Flip the source code to document.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "flip:toggle"
   },
-  "repository": "https://github.com/atom/flip",
+  "repository": "https://github.com/tinpotnick/flip",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
