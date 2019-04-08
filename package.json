@@ -1,7 +1,7 @@
 {
   "name": "flip",
   "main": "./lib/flip",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A markdown preview plugin with special powers. Flip can display normal .md files in Atom, it can also flip source code files to preview them as documents. Markdown in the comment section is rendered as the main view whilst code is rendered in code blocks. See flip-view.js for an example. Should work on all files which support C-style comments.",
   "keywords": [],
   "activationCommands": {
