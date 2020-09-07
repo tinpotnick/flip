@@ -15,6 +15,6 @@
   "dependencies": {
     "highlight.js": "^9.15.6",
     "highlights": "^1.2",
-    "showdown": "^1.9.0"
+    "showdown": "^1.9.1"
   }
 }
